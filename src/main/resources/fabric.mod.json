@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fastplace",
+  "version": "${version}",
+  "name": "FastPlace Pro",
+  "description": "High-speed, configurable block placement mod for Minecraft 1.16.5 with smart item filtering, interactive block protection, and planar/directional placement locks for bridging and building.",
+  "authors": [
+    "FastPlaceDev"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fastplace.FastPlaceClient"
+    ]
+  },
+  "mixins": [
+    "fastplace.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
